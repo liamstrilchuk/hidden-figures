@@ -1,0 +1,132 @@
+body, html, .landing, h3 {
+	height: 100%;
+	margin: 0;
+	overflow-x: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 0 0 150px;
+	background: linear-gradient(0deg, rgba(0, 0, 50, 0.3), rgba(0, 0, 50, 0.3)), url("main.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	font-size: 3.5em;
+}
+
+.landing h1 {
+	margin: 0;
+}
+
+.landing h2 {
+	margin-top: 50px;
+	font-size: 1em;
+}
+
+.quote {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.quote-image {
+	position: relative;
+	top: 0;
+	left: -50px;
+	width: 50px;
+	height: 50px;
+}
+
+.quote-content {
+	position: relative;
+	margin: 50px auto auto auto;
+}
+
+.quote-text {
+	margin: 0;
+	position: relative;
+	top: -40px;
+	left: 20px;
+	max-width: 800px;
+}
+
+.content {
+	width: 800px;
+	margin: auto;
+	max-width: 80%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.1rem;
+}
+
+.timeline b {
+	font-size: 1.1em;
+}
+
+.countries {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.country {
+	padding: 10px;
+}
+
+.country span {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 3px;
+}
+
+.country img {
+	display: block;
+	height: 75px;
+}
+
+.centered {
+	text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+	.jfk-image {
+		display: none;
+	}
+}
+
+.centered-img {
+	margin: auto;
+}
+
+p, li {
+	line-height: 1.6em;
+}
+
+.references span {
+	display: block;
+}
+
+.references {
+	padding-bottom: 50px;
+}
+
+.references span:nth-child(odd) {
+	padding-left: 50px;
+	padding-bottom: 20px;
+}
+
+.content img {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.caption {
+	text-align: center;
+	font-size: 0.8em;
+	color: #333;
+}
